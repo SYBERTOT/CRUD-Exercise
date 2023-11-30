@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "lttrung",
+    "password": "FUeqjhofk0TgfYkSboNZt3kPYG36nWaN",
+    "database": "tuandb_4sgl",
+    "host": "dpg-clfb5j6g1b2c739vvhrg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions":{
+      "ssl":{
+        "require":true,
+        "rejectUnauthorized":false
+      }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
